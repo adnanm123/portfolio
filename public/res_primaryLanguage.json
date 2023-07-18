@@ -11,14 +11,15 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Cookie Stand",
+        "startDate": "2023",
+        "description": "In my project portfolio, I took the initiative to create and oversee the cookie-stand repository on GitHub. I leveraged JavaScript to develop Sales Data and homepage pages, allowing for the dynamic generation and display of simulated sales data across various shop locations. Additionally, I devoted attention to designing a visually captivating homepage, incorporating custom fonts, colors, and layout choices that met strict accessibility standards.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/cookie-stand/cookie-stand-table.png",
+          "images/portfolio/cookie-stand/cookie-stand-form.png",
+          "images/portfolio/cookie-stand/cookie-stand-footer.png"
         ],
-        "url": "",
+        "url": "https://github.com/adnanm123/cookie-stand",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -35,14 +36,15 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Odd Duck",
+        "startDate": "2023",
+        "description": "I created a web app for Odd Duck Product Co to showcase three products and collect user votes. I took charge of implementing the tracking functionality, ensuring accurate counting of product displays and clicks. Additionally, I designed a polished and user-friendly interface that provided a seamless voting experience and presented the results in a visually appealing manner at the end of each voting round.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/odd-duck/odd-duck-home.png",
+          "images/portfolio/odd-duck/odd-duck-graph.png",
+          "images/portfolio/odd-duck/odd-duck-results.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/adnanm123/odd-duck",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,14 +57,15 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Glad Gaming",
+        "startDate": "2023",
+        "description": " This app is a Rock Paper Scissors game with a leaderboard that saves data after each round, and an About Us page. The gameplay will feature multiple opponents with different strategies and gambits, the goal is to get the most wins within a certain number of rounds, and then win against the highest number of opponents in a row.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/glad-gaming/glad-games-home.png",
+          "images/portfolio/glad-gaming/glad-games-leaderboard.png",
+          "images/portfolio/glad-gaming/glad-gaming-about-us.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/adnanm123/glad-games",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",

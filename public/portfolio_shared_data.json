@@ -9,7 +9,7 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
+          "name": "linkedin",
           "url": "www.linkedin.com/in/adnanmohamud",
           "class": "fab fa-linkedin"
         }
@@ -29,14 +29,9 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "75"
         },
         {
           "name": "JavaScript",
@@ -52,16 +47,6 @@
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
         }
       ]
     }
