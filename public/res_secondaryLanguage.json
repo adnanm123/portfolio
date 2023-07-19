@@ -1,116 +1,108 @@
 {
     "basic_info": {
-      "description_header": "Somalia",
-      "description": "👋 Jestem Adnan Mohamud. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hi",
+      "description": "👋 Waxaan ahay Adnan Mohamud, qoraaga cusub oo dhamaystiran ee Jaamacadda Washington, waxaan degganay digriga Bachelor of Science oo ku xiran Ilmaha Ra'yiga ah oo ku saabsan Informatics oo ku sugan Muwaadiniinta-Kombuyuutarka. Waxaan ka mid ahaa dadka ku hawlan waxbarashada coding-ka oo ahayd in aan iska celiyo dunida software-ka. Marka aan bilaabanay safarkayga cusub ee shaqooyinka, waxaan ku faraxsanahay in aan noqdo qayb ka mid ah hay'adkan, sababtoo ah waxay bixisaa fursad gaar ah si aan u heynno warbixin habboon oo ku saabsan kaalmooyinka iyo horumarka ganacsiga.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Fadlan ku saabsan",
+        "projects": "Mashruucyada",
+        "skills": "Qabaa'ilka",
+        "experience": "Tajriba"
       }
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+      "projects": [
+        {
+          "title": "Cookie Stand",
+          "startDate": "2023",
+          "description": "Mashruucan kasta waxaan ka hortagay in aan abuuray oo ka qayb qaadanay khibradda cookie-stand-ka ku jira GitHub. Waxaan ku isticmaalay JavaScript si aan u abuuro Bogga Macluumaadka Iibso Iyo Bogga Buugga, oo u oggolowday soo saaridda iyo muujinta macluumaadka iyo macluumaadka xiriirka ee simay kala duwan ee dukaamada. Sidoo kale, waxaan ku hubinaa in aan qaado qaabyo muuqaal ah oo sawirro qurux badan oo ka mid ah qaababka, oo ka kooban qoraallada gaarka ah, midabada, iyo xulashooyinka qaabilsan.",
+          "images": [
+            "images/portfolio/cookie-stand/cookie-stand-table.png",
+            "images/portfolio/cookie-stand/cookie-stand-form.png",
+            "images/portfolio/cookie-stand/cookie-stand-footer.png"
+          ],
+          "url": "https://github.com/adnanm123/cookie-stand",
+          "technologies": [
+            {
+                "class": "devicon-html5-plain",
+                "name": "HTML5"
+            },
+            {
+              "class": "devicon-javascript-plain",
+              "name": "JavaScript"
+            },
+            {
+              "class": "devicon-css3-plain",
+              "name": "CSS3"
+            }
+          ]
+        },
+        {
+          "title": "Odd Duck",
+          "startDate": "2023",
+          "description": "Waxaan abuuray siinayso web app oo ku qeexanaya Odd Duck Product Co si aan muujino saddex toban waxyaabood oo ay ka kooban yihiin. Waxaan qaaday dhammaan hawlaha lagu sameeyo xogta, si loo hubiyo adkaatada taariikhda iyo guulooyinka goobta. Sidoo kale, waxaan soo saaray qaabka caddaan ah iyo adeegsanaya shaqsiyeed ee bixiya kalsooni, waxaana muujinaya natiijooyinkii qaybinta habeenka oo qurxoon.",
+          "images": [
+          "images/portfolio/odd-duck/odd-duck-home.png",
+          "images/portfolio/odd-duck/odd-duck-graph.png",
+          "images/portfolio/odd-duck/odd-duck-results.png"
+          ],
+          "url": "https://github.com/adnanm123/odd-duck",
+          "technologies": [
+            {
+              "class": "devicon-html5-plain",
+              "name": "HTML5"
+            },
+            {
+              "class": "devicon-javascript-plain",
+              "name": "JavaScript"
+            },
+            {
+              "class": "devicon-css3-plain",
+              "name": "CSS3"
+            }
+          ]
+        },
+        {
+          "title": "Glad Gaming",
+          "startDate": "2023",
+          "description": "App-kan waa ciyaar Roob Paper Scissors oo leedahay bogga xiraadaha ee siyaasadda ah, oo leh guud ahaan golaha About Us. Ciyaarta wuxuu ka kooban yahay dhammaan xiddigaha oo leh bartaqooyin iyo geeddi-socodka kala duwan, waxaana go'aan u ahaa in ay kaaga imanayaan beddelka badan ee kulanada, kana muuqata awoodda ugu sareysa dhammaan xiddigaha kulanada.",
+          "images": [
+            "images/portfolio/glad-gaming/glad-games-home.png",
+            "images/portfolio/glad-gaming/glad-games-leaderboard.png",
+            "images/portfolio/glad-gaming/glad-gaming-about-us.png"
+          ],
+          "url": "https://github.com/adnanm123/glad-games",
+          "technologies": [
+            {
+              "class": "devicon-html5-plain",
+              "name": "HTML5"
+            },
+            {
+              "class": "devicon-javascript-plain",
+              "name": "JavaScript"
+            },
+            {
+              "class": "devicon-css3-plain",
+              "name": "CSS3"
+            }
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Microsoft",
+          "title": "Staajiri Cusub",
+          "years": "06.2018 - 08.2018",
+          "mainTech": [
+            "Swift",
+            "Java",
+            "Firebase"
+          ],
+          "technologies": [
+            "REST API",
+            "Swift",
+            "Java",
+            "Firebase",
+            "Slack"
+          ]
+        }
+      ]
+    }
