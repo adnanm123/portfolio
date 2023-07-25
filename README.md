@@ -1,6 +1,6 @@
 # Adnan Mohamud Portfolio
 
-[Live Deployed Site: ](https://adnan-mohamud-portfolio.netlify.app/)
+[Live Deployed Site](https://adnan-mohamud-portfolio.netlify.app/)
 
 ## Time Estimate
 
