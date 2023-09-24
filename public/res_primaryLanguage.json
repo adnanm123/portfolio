@@ -45,7 +45,7 @@
       {
         "title": "City Explorer",
         "startDate": "2023",
-        "description": "This application, City Explorer, is a web-based tool that allows users to explore weather forecast data and movies for different cities as well as its geographical information, including latitude, longitude, and a static map representation. The main problem domain addressed by this app is providing users with real-time weather information and movie details for locations of interest. By utilizing external APIs and displaying data in a user-friendly format, City Explorer simplifies the process of accessing weather and movie information. The application is built using React and utilizes the LocationIQ API to fetch data for the searched city.",
+        "description": "This application, City Explorer, is a web-based tool that allows users to explore weather forecast data and movies for different cities as well as its geographical information, including latitude, longitude, and a static map. The main problem domain addressed by this app is providing users with real-time weather information and movie details for locations of interest. By utilizing external APIs and displaying data in a user-friendly format, City Explorer simplifies the process of accessing weather and movie information. The application is built using React and utilizes the LocationIQ API to fetch data for the searched city.",
         "images": [
           "images/portfolio/City-Explorer/ce-search-city-map.png",
           "images/portfolio/City-Explorer/ce-top-movies-png.png"
