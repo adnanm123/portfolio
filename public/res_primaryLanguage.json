@@ -11,19 +11,26 @@
     },
     "projects": [
       {
-        "title": "Cookie Stand",
+        "title": "Hungry Helper",
         "startDate": "2023",
-        "description": "In my project portfolio, I took the initiative to create and oversee the cookie-stand repository on GitHub. I leveraged JavaScript to develop Sales Data and homepage pages, allowing for the dynamic generation and display of simulated sales data across various shop locations. Additionally, I devoted attention to designing a visually captivating homepage, incorporating custom fonts, colors, and layout choices that met strict accessibility standards.",
+        "description": "Our Mr. Al's HungryHelper app is a random restaurant generator. The user logs into their account. They fill out a form with price, location, and type of food as required criteria. When they hit submit, a Yelp API sends data to an array matching the criteria they requested. Then we use a random number generator to grab a random restaurant in the array to show to the user. The user can then hit make reservation which prompts them to fill out a form in order to make a reservation to the restaurant. The information entered will be uploaded to MongoDB and displayed on the reservations page. The user can also update and delete the reservation.",
         "images": [
-          "images/portfolio/cookie-stand/cookie-stand-table.png",
-          "images/portfolio/cookie-stand/cookie-stand-form.png",
-          "images/portfolio/cookie-stand/cookie-stand-footer.png"
+          "images/portfolio/Hungry-Helper/hh-homepage.png",
+          "images/portfolio/Hungry-Helper/hh-request-form.png",
+          "images/portfolio/Hungry-Helper/hh-random-restaurant.png",
+          "images/portfolio/Hungry-Helper/hh-reservation-form.png",
+          "images/portfolio/Hungry-Helper/hh-about-us.png",
+          "images/portfolio/Hungry-Helper/hh-account.png"
         ],
-        "url": "https://github.com/adnanm123/cookie-stand",
+        "url": "https://mr-als-hungryhelper.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "node"
           },
           {
             "class": "devicon-javascript-plain",
@@ -36,19 +43,22 @@
         ]
       },
       {
-        "title": "Odd Duck",
+        "title": "City Explorer",
         "startDate": "2023",
-        "description": "I created a web app for Odd Duck Product Co to showcase three products and collect user votes. I took charge of implementing the tracking functionality, ensuring accurate counting of product displays and clicks. Additionally, I designed a polished and user-friendly interface that provided a seamless voting experience and presented the results in a visually appealing manner at the end of each voting round.",
+        "description": "This application, City Explorer, is a web-based tool that allows users to explore weather forecast data and movies for different cities as well as its geographical information, including latitude, longitude, and a static map representation. The main problem domain addressed by this app is providing users with real-time weather information and movie details for locations of interest. By utilizing external APIs and displaying data in a user-friendly format, City Explorer simplifies the process of accessing weather and movie information. The application is built using React and utilizes the LocationIQ API to fetch data for the searched city.",
         "images": [
-          "images/portfolio/odd-duck/odd-duck-home.png",
-          "images/portfolio/odd-duck/odd-duck-graph.png",
-          "images/portfolio/odd-duck/odd-duck-results.png"
+          "images/portfolio/City-Explorer/ce-search-city-map.png",
+          "images/portfolio/City-Explorer/ce-top-movies-png.png"
         ],
-        "url": "https://github.com/adnanm123/odd-duck",
+        "url": "https://adnan-city-explorer.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "node.js"
           },
           {
             "class": "devicon-javascript-plain",
@@ -69,7 +79,7 @@
           "images/portfolio/glad-gaming/glad-games-leaderboard.png",
           "images/portfolio/glad-gaming/glad-gaming-about-us.png"
         ],
-        "url": "https://github.com/adnanm123/glad-games",
+        "url": "https://glad-gaming.github.io/glad-games/",
         "technologies": [
           {
             "class": "devicon-html5-plain",
