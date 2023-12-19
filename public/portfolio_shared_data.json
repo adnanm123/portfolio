@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Adnan Mohamud",
-      "titles": [ "Software Developer in Full-Stack JavaScript | Informatics @ University of Washington | UX/Product Designer" ],
+      "titles": [ "Software Developer in Full-Stack JavaScript" ],
       "social": [
         {
           "name": "github",
@@ -62,6 +62,86 @@
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
+        },
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original",
+          "level": "70"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "75"
+        },
+        {
+          "name": "GitHub",
+          "class": "devicon-github-plain",
+          "level": "75"
+        },
+        {
+          "name": "Visual Studio",
+          "class": "devicon-visualstudio-plain",
+          "level": "80"
+        },
+        {
+          "name": "SQL",
+          "class": "devicon-mysql-plain",
+          "level": "65"
+        },
+        {
+          "name": "ES6",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "65"
+        },
+        {
+          "name": "Socket.IO",
+          "class": "devicon-socketio-original",
+          "level": "75"
+        },
+        {
+          "name": "React Native",
+          "class": "devicon-react-plain",
+          "level": "60"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "65"
+        },
+        {
+          "name": "CI/CD",
+          "class": "devicon-travis-plain",
+          "level": "70"
+        },
+        {
+          "name": "Jest",
+          "class": "devicon-jest-plain",
+          "level": "65"
+        },
+        {
+          "name": "Markdown",
+          "class": "devicon-markdown-original",
+          "level": "80"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "80"
+        },
+        {
+          "name": "SQLite",
+          "class": "devicon-sqlite-plain",
+          "level": "80"
+        },
+        {
+          "name": "Trello",
+          "class": "devicon-trello-plain",
+          "level": "80"
         }
       ]
     }
