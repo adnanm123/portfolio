@@ -11,6 +11,82 @@
     },
     "projects": [
       {
+        "title": "Lost Hub",
+        "startDate": "2023",
+        "description": "Lost Hub reimagines the conventional lost and found system with a digital twist, offering a centralized online space for users to effortlessly report and locate misplaced items. Its integration with Google Maps API allows for pinpoint location identification, secured user authentication is managed via Auth0, and Axios is utilized for efficient data management, all contributing to a smoother process in reclaiming lost possessions.",
+        "images": [
+          "images/portfolio/LostHub/lh-homepage.png",
+          "images/portfolio/LostHub/lh-lostpage.png",
+          "images/portfolio/LostHub/lh-foundpage.png",
+          "images/portfolio/LostHub/lh-lostform.png",
+          "images/portfolio/LostHub/lh-addnotes.png"
+        ],
+        "url": "https://lost-hub-app.netlify.app/",
+        "technologies": [
+        {
+            "class": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+        },
+        {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+        },
+        {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+        },
+        {
+            "class": "devicon-google-plain",
+            "name": "Google Maps API"
+        }
+        ]
+      },
+      {
+        "title": "Just Talk Chat",
+        "startDate": "2023",
+        "description": "Our Just Talk Chat app reinvents the chat room, enabling real-time global interaction. It features a translation tool for effortless communication across languages and employs AI to filter out harmful messages, ensuring a positive chat experience. There's also a secure space for administrators to oversee discussions, safeguarding the platform's integrity. This blend of inclusivity, safety, and global connectivity distinguishes our chat platform as an ideal place for creating international bonds.",
+        "images": [
+          "images/portfolio/JustTalkChat/jtc-chat.png",
+          "images/portfolio/JustTalkChat/jtc-admin-negative.png",
+          "images/portfolio/JustTalkChat/jtc-users.png"
+        ],
+        "url": "https://justtalkchat.github.io/just-talk-chat/",
+        "technologies": [
+          {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS Lambda"
+        },
+        {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "API Gateway"
+        },
+        {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS DynamoDB"
+        },
+        {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "Amazon Comprehend"
+        },
+        {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "Amazon Translate"
+        },
+        {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+        },
+        {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+        }
+        ]
+      },
+      {
         "title": "Hungry Helper",
         "startDate": "2023",
         "description": "Our Mr. Al's HungryHelper app is a random restaurant generator. The user logs into their account. They fill out a form with price, location, and type of food as required criteria. When they hit submit, a Yelp API sends data to an array matching the criteria they requested. Then we use a random number generator to grab a random restaurant in the array to show to the user. The user can then hit make reservation which prompts them to fill out a form in order to make a reservation to the restaurant. The information entered will be uploaded to MongoDB and displayed on the reservations page. The user can also update and delete the reservation.",

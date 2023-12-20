@@ -1,90 +1,176 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 Waxaan ahay Adnan Mohamud, qoraaga cusub oo dhamaystiran ee Jaamacadda Washington, waxaan degganay digriga Bachelor of Science oo ku xiran Ilmaha Ra'yiga ah oo ku saabsan Informatics oo ku sugan Muwaadiniinta-Kombuyuutarka. Waxaan ka mid ahaa dadka ku hawlan waxbarashada coding-ka oo ahayd in aan iska celiyo dunida software-ka. Marka aan bilaabanay safarkayga cusub ee shaqooyinka, waxaan ku faraxsanahay in aan noqdo qayb ka mid ah hay'adkan, sababtoo ah waxay bixisaa fursad gaar ah si aan u heynno warbixin habboon oo ku saabsan kaalmooyinka iyo horumarka ganacsiga.",
-      "section_name": {
-        "about": "Fadlan ku saabsan",
-        "projects": "Mashruucyada",
-        "skills": "Qabaa'ilka",
-        "experience": "Tajriba"
-      }
-    },
+  "basic_info": {
+    "description_header": "Salaan",
+    "description": "👋 Waxaan ahay Adnan Mohamud, waxaan dhawaan ka qalin jabiyey Jaamacadda Washington, halkaas oo aan ka qaatay shahaadada sayniska Macluumaadka oo diiradda saaraya Is-dhexgalka Aadanaha iyo Kombiyuutarka. Waxaan leeyahay asaas adag oo barnaamij-sameynta ah, waxaana doonayaa inaan dib ugu soo laabto adduunka horumarinta software-ka. Waxaan leeyahay xiiso xooggan oo aan ku doonayo inaan ku biiriyo xalalka cusub iyo horumarka xad-dhaafka ah.",
+    "section_name": {
+      "about": "Ku Saabsan",
+      "projects": "Mashaariic",
+      "skills": "Xirfado",
+      "experience": "Khibrad"
+    }
+  },
       "projects": [
         {
-          "title": "Cookie Stand",
+          "title": "Lost Hub",
           "startDate": "2023",
-          "description": "Mashruucan kasta waxaan ka hortagay in aan abuuray oo ka qayb qaadanay khibradda cookie-stand-ka ku jira GitHub. Waxaan ku isticmaalay JavaScript si aan u abuuro Bogga Macluumaadka Iibso Iyo Bogga Buugga, oo u oggolowday soo saaridda iyo muujinta macluumaadka iyo macluumaadka xiriirka ee simay kala duwan ee dukaamada. Sidoo kale, waxaan ku hubinaa in aan qaado qaabyo muuqaal ah oo sawirro qurux badan oo ka mid ah qaababka, oo ka kooban qoraallada gaarka ah, midabada, iyo xulashooyinka qaabilsan.",
+          "description": "Lost Hub waxay dib u qaabeysay nidaamka dhaqameedka lumista iyo helitaanka alaabada, iyadoo siineysa meel dhexe oo internetka ah halkaas oo dadku si sahlan ugu soo sheegi karaan una heli karaan alaabada meesha ka luntay. Isku xirkeeda API-ga Google Maps waxay suuragelineysaa aqoonsiga goobta saxda ah, Auth0 ayaa maamula aqoonsiga ammaan ee isticmaalaha, halka Axios loo adeegsado maareynta xogta si hufan.",
           "images": [
-            "images/portfolio/cookie-stand/cookie-stand-table.png",
-            "images/portfolio/cookie-stand/cookie-stand-form.png",
-            "images/portfolio/cookie-stand/cookie-stand-footer.png"
+            "images/portfolio/LostHub/lh-homepage.png",
+            "images/portfolio/LostHub/lh-lostpage.png",
+            "images/portfolio/LostHub/lh-foundpage.png",
+            "images/portfolio/LostHub/lh-lostform.png",
+            "images/portfolio/LostHub/lh-addnotes.png"
           ],
-          "url": "https://github.com/adnanm123/cookie-stand",
+          "url": "https://lost-hub-app.netlify.app/",
           "technologies": [
+            {
+                "class": "devicon-react-original",
+                "name": "React"
+            },
+            {
+                "class": "devicon-mongodb-plain",
+                "name": "MongoDB"
+            },
+            {
+                "class": "devicon-express-original",
+                "name": "Express.js"
+            },
+            {
+                "class": "devicon-nodejs-plain",
+                "name": "Node.js"
+            },
+            {
+                "class": "devicon-google-plain",
+                "name": "Google Maps API"
+            }
+            ]
+          },
+          {
+            "title": "Just Talk Chat",
+            "startDate": "2023",
+            "description": "App-keenna Just Talk Chat wuxuu dib u habeynayaa qolka sheekaysiga, isagoo suurtagelinaya isdhexgalka tooska ah ee caalamiga ah waqtiga dhabta ah. Waxa uu leeyahay qalab turjumaad fudud oo loogu talagalay isgaarsiinta luqadaha kala duwan iyo AI si loo filtero fariimaha waxyeellada leh.",
+            "images": [
+              "images/portfolio/JustTalkChat/jtc-chat.png",
+              "images/portfolio/JustTalkChat/jtc-admin-negative.png",
+              "images/portfolio/JustTalkChat/jtc-users.png"
+            ],
+            "url": "https://justtalkchat.github.io/just-talk-chat/",
+            "technologies": [
+              {
+                "class": "devicon-amazonwebservices-plain-wordmark",
+                "name": "AWS Lambda"
+            },
+            {
+                "class": "devicon-amazonwebservices-plain-wordmark",
+                "name": "API Gateway"
+            },
+            {
+                "class": "devicon-amazonwebservices-plain-wordmark",
+                "name": "AWS DynamoDB"
+            },
+            {
+                "class": "devicon-amazonwebservices-plain-wordmark",
+                "name": "Amazon Comprehend"
+            },
+            {
+                "class": "devicon-amazonwebservices-plain-wordmark",
+                "name": "Amazon Translate"
+            },
             {
                 "class": "devicon-html5-plain",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-javascript-plain",
+                "name": "JavaScript"
+            }
+            ]
+          },
+          {
+            "title": "Hungry Helper",
+            "startDate": "2023",
+            "description": "App-ka Mr. Al's HungryHelper waa abuuraha makhaayadaha kala duwan. Isticmaaluhu wuxuu gelayaa akoonkiisa, wuxuuna buuxinayaa foomka qiimaha, goobta, iyo nooca cunnada. Marka la gudbiyo, API-ga Yelp wuxuu dirayaa xogta ku habboon shuruudaha la codsaday. Waxaa loo adeegsadaa lambarka random si loo soo bandhigo makhaayad kala duwan.",
+            "images": [
+              "images/portfolio/Hungry-Helper/hh-homepage.png",
+              "images/portfolio/Hungry-Helper/hh-request-form.png",
+              "images/portfolio/Hungry-Helper/hh-random-restaurant.png",
+              "images/portfolio/Hungry-Helper/hh-reservation-form.png",
+              "images/portfolio/Hungry-Helper/hh-about-us.png",
+              "images/portfolio/Hungry-Helper/hh-account.png"
+            ],
+            "url": "https://mr-als-hungryhelper.netlify.app/",
+            "technologies": [
+              {
+                "class": "devicon-react-plain",
+                "name": "React"
+              },
+              {
+                "class": "devicon-nodejs-plain",
+                "name": "node"
+              },
+              {
+                "class": "devicon-javascript-plain",
+                "name": "JavaScript"
+              },
+              {
+                "class": "devicon-css3-plain",
+                "name": "CSS3"
+              }
+            ]
+          },
+          {
+            "title": "City Explorer",
+            "startDate": "2023",
+            "description": "City Explorer waa qalab web-ku-saleysan oo u oggolaanaya isticmaalayaasha inay baaraan saadaasha cimilada iyo filimada magaalooyinka kala duwan. Waxay bixisaa macluumaadka juqraafiga, oo ay ku jiraan latitude, longitude, iyo khariidad static ah.",
+            "images": [
+              "images/portfolio/City-Explorer/ce-search-city-map.png",
+              "images/portfolio/City-Explorer/ce-top-movies-png.png"
+            ],
+            "url": "https://adnan-city-explorer.netlify.app/",
+            "technologies": [
+              {
+                "class": "devicon-react-plain",
+                "name": "React"
+              },
+              {
+                "class": "devicon-nodejs-plain",
+                "name": "node.js"
+              },
+              {
+                "class": "devicon-javascript-plain",
+                "name": "JavaScript"
+              },
+              {
+                "class": "devicon-css3-plain",
+                "name": "CSS3"
+              }
+            ]
+          },
+          {
+            "title": "Glad Gaming",
+            "startDate": "2023",
+            "description": "App-kan waa ciyaar 'Rock Paper Scissors' oo leh leaderboard oo keydinaysa xogta wareeg kasta. Waxay leedahay ciyaartoy badan oo leh istaraatiijiyado kala duwan, yoolkuna waa in la helo guulaha ugu badan.",
+            "images": [
+              "images/portfolio/glad-gaming/glad-games-home.png",
+              "images/portfolio/glad-gaming/glad-games-leaderboard.png",
+              "images/portfolio/glad-gaming/glad-gaming-about-us.png"
+            ],
+            "url": "https://glad-gaming.github.io/glad-games/",
+            "technologies": [
+              {
+                "class": "devicon-html5-plain",
                 "name": "HTML5"
-            },
-            {
-              "class": "devicon-javascript-plain",
-              "name": "JavaScript"
-            },
-            {
-              "class": "devicon-css3-plain",
-              "name": "CSS3"
-            }
-          ]
-        },
-        {
-          "title": "Odd Duck",
-          "startDate": "2023",
-          "description": "Waxaan abuuray siinayso web app oo ku qeexanaya Odd Duck Product Co si aan muujino saddex toban waxyaabood oo ay ka kooban yihiin. Waxaan qaaday dhammaan hawlaha lagu sameeyo xogta, si loo hubiyo adkaatada taariikhda iyo guulooyinka goobta. Sidoo kale, waxaan soo saaray qaabka caddaan ah iyo adeegsanaya shaqsiyeed ee bixiya kalsooni, waxaana muujinaya natiijooyinkii qaybinta habeenka oo qurxoon.",
-          "images": [
-          "images/portfolio/odd-duck/odd-duck-home.png",
-          "images/portfolio/odd-duck/odd-duck-graph.png",
-          "images/portfolio/odd-duck/odd-duck-results.png"
-          ],
-          "url": "https://github.com/adnanm123/odd-duck",
-          "technologies": [
-            {
-              "class": "devicon-html5-plain",
-              "name": "HTML5"
-            },
-            {
-              "class": "devicon-javascript-plain",
-              "name": "JavaScript"
-            },
-            {
-              "class": "devicon-css3-plain",
-              "name": "CSS3"
-            }
-          ]
-        },
-        {
-          "title": "Glad Gaming",
-          "startDate": "2023",
-          "description": "App-kan waa ciyaar Roob Paper Scissors oo leedahay bogga xiraadaha ee siyaasadda ah, oo leh guud ahaan golaha About Us. Ciyaarta wuxuu ka kooban yahay dhammaan xiddigaha oo leh bartaqooyin iyo geeddi-socodka kala duwan, waxaana go'aan u ahaa in ay kaaga imanayaan beddelka badan ee kulanada, kana muuqata awoodda ugu sareysa dhammaan xiddigaha kulanada.",
-          "images": [
-            "images/portfolio/glad-gaming/glad-games-home.png",
-            "images/portfolio/glad-gaming/glad-games-leaderboard.png",
-            "images/portfolio/glad-gaming/glad-gaming-about-us.png"
-          ],
-          "url": "https://github.com/adnanm123/glad-games",
-          "technologies": [
-            {
-              "class": "devicon-html5-plain",
-              "name": "HTML5"
-            },
-            {
-              "class": "devicon-javascript-plain",
-              "name": "JavaScript"
-            },
-            {
-              "class": "devicon-css3-plain",
-              "name": "CSS3"
-            }
-          ]
-        }
+              },
+              {
+                "class": "devicon-javascript-plain",
+                "name": "JavaScript"
+              },
+              {
+                "class": "devicon-css3-plain",
+                "name": "CSS3"
+              }
+            ]
+          }
       ],
       "experience": [
         {
